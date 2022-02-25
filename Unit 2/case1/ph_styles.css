@@ -1,18 +1,18 @@
 @charset "utf-8";
 @font-face{
-    font-family: Champagne;
-    src: url(cac_champagne.woff) format(woff),
-    url(cac_champagne.ttf) format(tff);
+    font-family: 'Champagne';
+    src: url('cac_champagne.woff') format('woff'),
+    url('cac_champagne.ttf') format('tff');
 }
 @font-face{
     font-family: Grunge;
-    src: url(1942.woff) format(woff),
-    url(1942.tff) format(tff);
+    src: url('1942.woff') format('woff'),
+    url('1942.tff') format('tff');
 }
 @font-face{
     font-family: Dobkin;
-    src: url(DobkinPlain.woff) format(woff),
-    url(DobkinPlain.tff) format(tff);
+    src: url('DobkinPlain.woff') format('woff'),
+    url('DobkinPlain.tff') format('tff');
 }
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -64,11 +64,11 @@ nav a{
 nav a:link, nav a:visited{
     color:white;
     text-decoration:none;
-    background-color: hsla(0, 0%, 42%, 0.4)
+    background-color: hsla(0, 0%, 42%, 0.4);
 }
 nav a:active, nav a:hover{
-    color:hsla(0, 0%, 100%, 0.7%);
-    background-color:hsla(0, 0%, 42%, 0.7)
+    color:hsla(0, 0%, 100%, 0.7);
+    background-color:hsla(0, 0%, 42%, 0.7);
 
 }
 
@@ -82,21 +82,38 @@ section.playbill h1{
 }
 #play1{
     background-color:hsl(240, 100%, 88%);
+}
+#play1 h1{
     font-family: Champagne, cursive;
 }
 #play2{
     background-color:hsl(25, 88%, 73%);
+}
+#play2 h1{
     font-family: Grunge, 'Times New Roman', Times, serif;
 }
 #play3{
     background-color:hsl(0, 100%, 75%);
+}
+#play3 h1{
     font-family: Impact, Charcoal, sans-serif;
 }
 #play4{
     background-color:hsl(296, 86%, 86%);
+}
+#play4 h1{
     font-family: Dobkin, cursive;
 }
 
 /* Description List Styles */
 
-/* TO DO: number 17 */
+dt{
+    font-size:1.3em;
+    font-weight:bold;
+    color:hsla(0,0%,0%,0.4)
+}
+dd{
+    font-size:1.3em;
+    margin-left:0px;
+    margin-bottom:10px;
+}
