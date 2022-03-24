@@ -1,0 +1,18 @@
+body {
+    background-color: #131415;
+    color: white;
+    font-family: Verdana;
+}
+
+h1{
+    font-size:30px;
+    color:#F90AB2;
+    text-shadow:#F90AB2 0 0 18px;}
+
+h2, h3{text-shadow:#00FFFF 0 0 4px;}
+
+p{color:#FFD8F4;}
+
+a:link{color: #00FFFF;}  
+a:visited{color: #F90AB2}  
+a:hover{color: #FFD8F4}

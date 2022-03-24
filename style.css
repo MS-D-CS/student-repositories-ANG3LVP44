@@ -3,9 +3,13 @@
 h1, h2, p, header p{
     text-align:center;
 }
+
 .units h3, p, img{
     text-align:left;
     margin: 20px 10px
+}
+li p{
+    margin:0;
 }
 body{
     max-width:960px;
@@ -42,12 +46,15 @@ nav ul li{
     height:36px;
     margin-right:12px;
     text-align:center;
+    background-color:#252627;
+    text-shadow:#F90AB2 0 0 18px;
 }
-li a{
+nav ul li a{
     text-decoration:none;
+    display:block;
 }
-.active, .active a{
-    color:white;
+nav ul li:hover{
+    background-color:#202122
 }
 footer{
     text-align:center;
