@@ -60,9 +60,14 @@ section#topics article{
 */
 
 @media only screen and (max-width: 480px) {
-  
-
- 
+   aside{
+      -webkit-order:99;
+      order:99;
+   }
+   footer{
+      -webkit-order:99;
+      order:99;
+   }
 }
 
 /* ============================================
@@ -83,7 +88,4 @@ section#topics article{
       flex:1 1 auto;
    }
 
-
 }
-
-/* TIMESTAMP: 13:58
