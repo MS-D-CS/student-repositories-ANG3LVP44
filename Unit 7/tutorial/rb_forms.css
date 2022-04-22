@@ -20,6 +20,16 @@
         flex-flow:row wrap;
     }
 
+    form#survey>fieldset{
+        background-color:rgb(241,232,181);
+        border-radius:20px;
+        -webkit-flex:1 1 300px;
+        flex:1 1 300px;
+        font-size:0.85em;
+        padding:10px;
+        margin:10px;
+    }
+
     div.formRow{
         display:-webkit-flex;
         display:flex;
@@ -37,6 +47,7 @@
 
 legend{
     background-color:rgb(179,20,25);
+    border-radius:5px;
     color:white;
     padding:5px;
 }
