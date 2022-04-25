@@ -84,6 +84,10 @@
                     <label for="mail">E-mail*</label>
                     <input name="custEmail" id="mail" type="email">
                 </div>
+                <input name="mailMe" id="mailCB" value="yes" type="checkbox">
+                <label for="mailCB">Add me to your mailing list for great coupons
+                    and specials!
+                </label>
             </fieldset>
             <fieldset id="expInfo">
                 <legend>Share Your Experience at Red Ball Pizza</legend>
@@ -111,6 +115,35 @@
                         <option value="other">Other</option>
                     </select>
                 </div>
+                <div class="formRow">
+                    <label>Was your service friendly?</label>
+                    <fieldset class="optGroup">
+                        <label for="fYes">Yes</label>
+                        <input name="sFriend" id="fYes" value="yes" type="radio">
+                        <label for="fNo">No</label>
+                        <input name="sFriend" id="fNo" value="no" type="radio">
+                    </fieldset>
+                </div>
+                <div class="formRow">
+                    <label>Was your order correct?</label>
+                    <fieldset class="optGroup">
+                        <label for="cYes">Yes</label>
+                        <input name="oCorrect" id="cYes" value="yes" type="radio">
+                        <label for="cNo">No</label>
+                        <input name="oCorrect" id="cNo" value="no" type="radio">
+                    </fieldset>
+                </div>
+                <div class="formRow">
+                    <label>Was your food hot?</label>
+                    <fieldset class="optGroup">
+                        <label for="hYes">Yes</label>
+                        <input name="foodHot" id="hYes" value="yes" type="radio">
+                        <label for="hNo">No</label>
+                        <input name="foodHot" id="hNo" value="no" type="radio">
+                    </fieldset>
+                </div>
+                <label for="commBox">Tell us more about your experience!</label>
+                <textarea name="custExp" id="commBox"></textarea>
             </fieldset>
         </form>
 
